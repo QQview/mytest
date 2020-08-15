@@ -31,7 +31,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1fl6B6kaRzIWE38W4D43MTAEGAX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -39,6 +43,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="F:/BaiduNetdiskDownload/day108/s9day108 .py" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -105,7 +110,7 @@
       <workItem from="1597234465041" duration="3424000" />
       <workItem from="1597283265977" duration="9344000" />
       <workItem from="1597374608985" duration="754000" />
-      <workItem from="1597450495823" duration="2345000" />
+      <workItem from="1597450495823" duration="2360000" />
     </task>
     <servers />
   </component>
