@@ -7,6 +7,7 @@ from lufei.serializers.course import CourseSerializer,CourseDetailSerializer
 from lufei.auth.auth import LuffAuth
 from lufeicity.settings import ret
 from lufei.serializers.article import ArticleSerializer,ArticleDetailSerializer
+
 class ArticleView(ViewSetMixin, APIView):
 
     def list(self,request , *args, **kwargs):

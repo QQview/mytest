@@ -9,8 +9,7 @@ class ArticleSerializer(serializers.ModelSerializer):
     source = serializers.CharField(source='source.name')
     class Meta:
         model = models.Article
-        fields = ['id', 'title','source','brief','comment_num',
-                  'agree_num', ]
+        fields = ['id', 'title','source','brief',]
 
 
 class ArticleDetailSerializer(serializers.ModelSerializer):

@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a74f0800-ba38-4b86-bd01-d52cf6dccf7b" name="Default Changelist" comment="" />
+    <list default="true" id="a74f0800-ba38-4b86-bd01-d52cf6dccf7b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lufei/cors.py" beforeDir="false" afterPath="$PROJECT_DIR$/lufei/cors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lufei/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lufei/migrations/0002_auto_20200813_1626.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lufei/migrations/0003_auto_20200814_1359.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lufei/migrations/0004_auto_20200814_1402.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lufei/migrations/0005_auto_20200814_1528.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lufei/serializers/article.py" beforeDir="false" afterPath="$PROJECT_DIR$/lufei/serializers/article.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lufei/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/lufei/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lufei/views/account.py" beforeDir="false" afterPath="$PROJECT_DIR$/lufei/views/account.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lufeicity/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/lufeicity/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +57,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="F:/BaiduNetdiskDownload/day108/s9day108 .py" />
+    <property name="last_opened_file_path" value="F:/BaiduNetdiskDownload/day106/s9luffycity - 3 - 拦截器用户认证" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -110,7 +122,8 @@
       <workItem from="1597234465041" duration="3424000" />
       <workItem from="1597283265977" duration="9344000" />
       <workItem from="1597374608985" duration="754000" />
-      <workItem from="1597450495823" duration="2360000" />
+      <workItem from="1597450495823" duration="6137000" />
+      <workItem from="1597536674998" duration="8599000" />
     </task>
     <servers />
   </component>
@@ -118,26 +131,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="364" y="166" key="FileChooserDialogImpl" timestamp="1597452178423">
+    <state x="364" y="166" key="FileChooserDialogImpl" timestamp="1597550902015">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="364" y="166" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1597452178423" />
-    <state width="1322" height="179" key="GridCell.Tab.0.bottom" timestamp="1597451993602">
+    <state x="364" y="166" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1597550902015" />
+    <state width="1322" height="300" key="GridCell.Tab.0.bottom" timestamp="1597551233149">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="179" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1597451993602" />
-    <state width="1322" height="179" key="GridCell.Tab.0.center" timestamp="1597451993602">
+    <state width="1322" height="300" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1597551233149" />
+    <state width="1322" height="300" key="GridCell.Tab.0.center" timestamp="1597551233149">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="179" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1597451993602" />
-    <state width="1322" height="179" key="GridCell.Tab.0.left" timestamp="1597451993602">
+    <state width="1322" height="300" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1597551233149" />
+    <state width="1322" height="300" key="GridCell.Tab.0.left" timestamp="1597551233149">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="179" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1597451993602" />
-    <state width="1322" height="179" key="GridCell.Tab.0.right" timestamp="1597451993602">
+    <state width="1322" height="300" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1597551233149" />
+    <state width="1322" height="300" key="GridCell.Tab.0.right" timestamp="1597551233149">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="179" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1597451993602" />
+    <state width="1322" height="300" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1597551233149" />
     <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1597286455855">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -150,5 +163,16 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="486" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1596800644889" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://F:/BaiduNetdiskDownload/day110课上所有/s9day110 .py</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -16,9 +16,9 @@ Including another URLconf
 from django.conf.urls import url,include
 from django.contrib import admin
 from lufei import urls
-from lufei.views import account,course
+
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^api/(?P<version>\w+)/', include('lufei.urls')), # 版本路由控制
-    url(r'^auth/$', account.APIView.as_view()),
+
 ]

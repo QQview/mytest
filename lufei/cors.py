@@ -1,3 +1,5 @@
+
+from  django.middleware.common import CommonMiddleware
 class MiddlewareMixin(object):
     def __init__(self, get_response=None):
         self.get_response = get_response
@@ -13,18 +15,18 @@ class MiddlewareMixin(object):
             response = self.process_response(request, response)
         return response
 
+
 class CORSMiddleware(MiddlewareMixin):
 
     def process_response(self,request,response):
-        # 添加响应头
+        #  添加响应头
+        # 运行你的域名来获取我的数据
 
-        # 允许你的域名来获取我的数据
-        response['Access-Control-Allow-Origin'] = "*"
-
-        # 允许你携带Content-Type请求头
-        # response['Access-Control-Allow-Headers'] = "Content-Type"
-
-        # 允许你发送DELETE,PUT
-        # response['Access-Control-Allow-Methods'] = "DELETE,PUT"
-
+        response["Access-Control-Allow-Origin"] ="*"
+        # * 允许所有的响应
+        # 允许你携带content-type请求头
+        if request.method == 'OPTIONS':
+            response["Access-Control-Allow-Headers"] = "Content-Type"
+        #  允许你发送get。post
+        response["Access-Control-Allow-Methods"] ="GET,POST,DELETE,PUT"
         return response
